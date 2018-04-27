@@ -74,4 +74,7 @@ $(document).ready(function(){
         $("div").show();
     });
 });
-//
+
+
+const greeting = require('./say-hello');
+console.log(greeting.speach);
